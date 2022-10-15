@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_controlTracker",
-  "spriteId": null,
+  "name": "obj_greenButton",
+  "spriteId": {
+    "name": "spr_greenButton",
+    "path": "sprites/spr_greenButton/spr_greenButton.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
@@ -23,11 +26,12 @@
   "physicsShapePoints": [],
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Buttons",
+    "path": "folders/Objects/Buttons.yy",
   },
 }

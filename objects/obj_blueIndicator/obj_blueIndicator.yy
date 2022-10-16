@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_strumBar",
+  "name": "obj_blueIndicator",
   "spriteId": {
-    "name": "spr_strumBar",
-    "path": "sprites/spr_strumBar/spr_strumBar.yy",
+    "name": "spr_blueIndicator",
+    "path": "sprites/spr_blueIndicator/spr_blueIndicator.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,15 +25,12 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
   ],
-  "properties": [
-    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"buttonPressed","varType":0,"value":"-1","rangeEnabled":false,"rangeMin":0.0,"rangeMax":10.0,"listItems":[],"multiselect":false,"filters":[],},
-  ],
+  "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Buttons",
-    "path": "folders/Objects/Buttons.yy",
+    "name": "Indicators",
+    "path": "folders/Objects/Indicators.yy",
   },
 }
